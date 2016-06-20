@@ -15,6 +15,7 @@
     docker run -it --rm -p 0.0.0.0:8081:80 hifone
 
 ### step 3: launch the service
+    # git pull(todo) and launch the service
     /run.sh
     
 now you could visit `http://127.0.0.1:8081`(linux) or `http://192.168.99.100:8081`(mac) and see the install page
