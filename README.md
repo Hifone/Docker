@@ -2,13 +2,19 @@
 
 ## how to run
 
+### step 1: build the image
+
     git clone https://github.com/Hifone/Docker.git
     
     cd Docker
     docker build -t hifone --rm .
     
+### step 2: run the container
+
     # run the container and bind port to 8081 on the host
     docker run -it -p 0.0.0.0:8081:80 hifone
+
+### step 3: launch the service
 
     # inside container,launch the shell to config and launch the app;it could cost a few minutes
     /run.sh
